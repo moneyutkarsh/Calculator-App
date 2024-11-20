@@ -1,0 +1,30 @@
+.text-center{
+    text-align: center;
+}
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    padding: 20px;
+    width: 66px;
+    margin: 0 3px;
+    border-radius: 10px;
+    border: solid black;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.row{
+    margin: 8px 0px;
+    justify-content: space-around;
+}
+.row input{
+    margin: 0;
+    padding: 10px 38px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
